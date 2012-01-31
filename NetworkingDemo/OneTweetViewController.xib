@@ -92,7 +92,7 @@
 						<string key="NSFrame">{{20, 122}, {280, 215}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="237590425"/>
+						<reference key="NSNextKeyView" ref="541367166"/>
 						<string key="NSReuseIdentifierKey">_NS:639</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">2</int>
@@ -119,7 +119,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIActivityIndicatorView" id="237590425">
+					<object class="IBUIActivityIndicatorView" id="541367166">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{150, 220}, {20, 20}}</string>
@@ -133,10 +133,10 @@
 						<bool key="IBUIAnimating">YES</bool>
 						<int key="IBUIStyle">2</int>
 					</object>
-					<object class="IBUIButton" id="863199625">
+					<object class="IBUIButton" id="927922875">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{67, 403}, {186, 37}}</string>
+						<string key="NSFrame">{{59, 403}, {202, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
@@ -145,7 +145,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">i want more awesome!</string>
+						<string key="IBUINormalTitle">i require more awesome!</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -219,14 +219,14 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">activityIndicator</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="237590425"/>
+						<reference key="destination" ref="541367166"/>
 					</object>
 					<int key="connectionID">20</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">userTappedChangeTweeter:</string>
-						<reference key="source" ref="863199625"/>
+						<reference key="source" ref="927922875"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -247,9 +247,9 @@
 						<array class="NSMutableArray" key="children">
 							<reference ref="303681463"/>
 							<reference ref="489930195"/>
-							<reference ref="237590425"/>
+							<reference ref="541367166"/>
 							<reference ref="291717548"/>
-							<reference ref="863199625"/>
+							<reference ref="927922875"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -281,12 +281,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">19</int>
-						<reference key="object" ref="237590425"/>
+						<reference key="object" ref="541367166"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">25</int>
-						<reference key="object" ref="863199625"/>
+						<reference key="object" ref="927922875"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</array>
