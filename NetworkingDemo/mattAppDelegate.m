@@ -7,7 +7,8 @@
 //
 
 #import "mattAppDelegate.h"
-
+#import "OneTweetViewController.h"
+#import "AFNetworkActivityIndicatorManager.h"
 @implementation mattAppDelegate
 
 @synthesize window = _window;
@@ -16,6 +17,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+	
+	//init oneTweetViewController
+	OneTweetViewController *vc = [[OneTweetViewController alloc] init];
+	self.window.rootViewController = vc;
+	
+	//start the AFNetworkActivityIndicatorManager goodness
+	[[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+	
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
